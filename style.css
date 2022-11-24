@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  height: 100vh;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.todo-container {
+  background-color: seagreen;
+  height: 350px;
+  width: 350px;
+  margin: auto;
+  padding: 0.9em;
+}
+.head-section {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 0.3em;
+  margin-bottom: 15px;
+}
+.head-section input {
+  width: 75%;
+  padding: 0.5rem 0;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+.head-section input::placeholder {
+  color: orangered;
+  position: absolute;
+  left: 10px;
+}
+.head-section button {
+  padding: 0.5rem 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: white;
+  color: orangered;
+}
+.task-bg {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.task-bg h1 {
+  font-size: 1.1em;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+.task-bg p {
+  font-size: 1em;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: white;
+  padding: 0 5px;
+  border-radius: 2px;
+}
+hr {
+  margin-bottom: 20px;
+}
+ul {
+    list-style: none;
+    height: 42vh;
+    overflow-y: scroll;
+}
+ul li{
+    padding: .2em;
+    background-color: white;
+    border-radius: 5px;
+    margin: .5em 0;
+    display: flex;
+    justify-content: space-between;
+}
+li button{
+    padding: 0.2em .5em;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-weight: 500;
+}
+#btn-span{
+  background-color: seagreen;
+}
